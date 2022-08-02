@@ -16,7 +16,7 @@ function setToRandom(scale) {
 
 // Factory to make a PacMan at a random position with random velocity
 function makePac() {
-  // returns an object with random values scaled {x: 33, y: 21}
+  
   let velocity = setToRandom(10); // {x:?, y:?}
   let position = setToRandom(200);
 
@@ -33,7 +33,7 @@ function makePac() {
   // TODO add new Child image to game
   game.appendChild(newimg);
 
-  // return details in an object
+  
   return {
     position,
     velocity,
@@ -55,7 +55,7 @@ function update() {
 }
 
 function checkCollisions(item) {
-  // TODO: detect collision with all walls and make pacman bounce
+ 
 if (
     item.position.x + item.velocity.x + item.newimg.width > window.innerWidth ||
     item.position.x + item.velocity.x < 0
@@ -70,6 +70,10 @@ if (
 
 function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
+}
+
+function stop() {
+  clearTimeout(timeout);
 }
 
 //don't change this line

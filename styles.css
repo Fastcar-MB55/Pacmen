@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  h2 {
+    margin: 15px;
+    font-family: Nunito, Tahoma, sans-serif;
+  }
+  
+  p {
+    margin: 15px;
+    font-family: Nunito, Tahoma, sans-serif;
+  }
+  
+   
+  button {
+    font-size: 1.25em;
+    background-color: red;
+    color: white;
+    background-size: cover;
+    border-radius: 15px;
+    opacity: .65;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: black;
+    background-size: cover;
+    border-radius: 15px;
+    opacity: .65;
+  }
+  
+  .map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  
+  }

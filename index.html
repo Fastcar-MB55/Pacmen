@@ -1,16 +1,25 @@
-<html>
-
-<head>
-    <title>Pacmen</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Pacmen</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
 <body>
     <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
+        <button onclick='makeOne()'>Add PacMan</button>
+        <button onclick='update()' >Start Game</button>
+        <button onClick='stop()'>Stop Game</button>
+        <button onclick="window.location.href='https://Fastcar-MB55.github.io/Projects.html';">
+            Projects Page
+        </button>
+        <button onclick="window.location.href='https://Fastcar-MB55.github.io';">
+           Home
+        </button>
     </div>
 
-    <!-- DO NOT CHANGE THIS LINE OF CODE -->
+
     <script src="./pacmen.js"></script>
 </body>
 
