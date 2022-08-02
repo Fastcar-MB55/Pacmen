@@ -19,7 +19,7 @@ body {
     font-size: 1.25em;
     background-color: red;
     color: white;
-    text-align: left;
+    float: left;
     background-size: cover;
     border-radius: 15px;
     opacity: .65;
