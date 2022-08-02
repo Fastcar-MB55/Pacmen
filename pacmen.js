@@ -14,6 +14,7 @@ function setToRandom(scale) {
   };
 }
 
+
 // Factory to make a PacMan at a random position with random velocity
 function makePac() {
   
