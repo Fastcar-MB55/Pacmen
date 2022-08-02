@@ -1,33 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8" />
-        <title>Pacmen</title>
-        <link rel="stylesheet" href="styles.css">
+        <link href="styles.css" rel="stylesheet">
+        <title>PacMen Factory</title>
         <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     </head>
-
-    
 <body>
     <div style="padding: 10px;">
-        <div id='game'> 
-            <div class="map-overlay">
-            <button class="button" onclick='makeOne()'>Add PacMan</button>
-            <button class="button" onclick='update()' >Start Game</button>
-            <button class="button" onClick='stop()'>Stop Game</button>
-            <button class="button" onclick="window.location.href='https://Fastcar-MB55.github.io/Projects.html';">
-                Projects Page
-            </button>
-            <button class="button" onclick="window.location.href='https://Fastcar-MB55.github.io';">
-            Home
-            </button>
-            </div>
-        </div>
+      <div id='game'>
+        <button class="game-button" onclick='makeOne()'>Add PacMan</button>
+        <button class="game-button" onclick='update()'>Start Game</button>
+        <button class="game-button" onClick='stop()'>Stop Game</button>
+      </div>
     </div>
-
-
-
-    <script src="./pacmen.js"></script>
 </body>
+
+<script src="pacmen.js"></script>
 
 </html>
