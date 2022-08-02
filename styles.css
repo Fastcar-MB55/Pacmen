@@ -15,16 +15,6 @@ body {
     font-family: Nunito, Tahoma, sans-serif;
   }
   
-  .game-button {
-    width: 150;
-    height: 30;
-    border-radius: 10px;
-    color: white;
-    background-color: #BD4F6C;
-    border-color: #BD4F6C;
-  }
-
-  
   button {
     font-size: 1.25em;
     background-color: red;
